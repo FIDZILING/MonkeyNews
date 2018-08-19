@@ -1,0 +1,98 @@
+#admin-do{
+	background-color:rgb(242,242,242);
+	color:black;
+	font-size:20px;
+}
+#comment-do{
+	display:none;
+}
+#user-do{
+	display:none;
+}
+#news-do{
+	display:none;
+}
+.main-box{
+	float: left;
+    position: absolute;
+    margin:0 0 0 200px;
+    height: 600px;
+    width:85%;
+    min-width: 650px;
+}
+.findadmin{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+.img-find{
+	width:15px;
+	height:15px;
+	margin-left: -35px;
+	cursor:pointer;
+}
+.admin-list{
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:10px;
+	width:800px;
+	height:500px;
+	overflow:auto;
+	border:#aaa solid 1px;
+}
+
+/* Border styles */
+#admin-list thead, #admin-list tr {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #aaa;
+}
+#admin-list {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaa;
+}
+/* Padding and font style */
+#admin-list td, #admin-list th {
+	padding: 5px 10px;
+	font-family: Verdana;
+	text-align:center;
+	width: 335px;
+	color: rgb(0, 0, 0);
+}
+/* Alternating background colors */
+#admin-list tr:nth-child(even) {
+	background: #fff;
+}
+#admin-list tr:nth-child(odd) {
+	background: #fff;
+}
+
+.sel-type{
+	width:90px;
+	height:25px;
+}
+.img-inputadmin{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+}
+.inputadmin-text{
+	padding:0px;
+	width:200px;
+	height:30px;
+	border:#eee solid 1px;
+	border-radius:0px;
+	text-align:center;
+}
+.inputadmin-text:focus{
+	border:blue solid 1px;
+}
+.img-del{
+	float:right;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+}

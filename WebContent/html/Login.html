@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+	<title>Login</title>
+	<link href="../img/logo.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/common.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/Login.css" />
+</head>
+<body>
+	<!-- 头部logo -->
+    <div class="header">
+        <div class="logo-box">
+            <a href="Login.html">
+            	<img src="../img/logo.png" class="img-logo">
+            	<font class="text-main">猿闻后台管理</font>
+            </a>
+        </div>
+    </div>
+    <!-- 中间内容 -->
+    <!-- 登陆用户名密码 -->
+    <div class="wrapper">
+		<!-- 图片div -->
+		<div class="wrapper-box-image"></div>
+		<div class="login-box">
+			 <input id="adminname" type="text" name="Administratorname" value="账号" class="input-box"/><br>
+			 <input id="adminpass" type="text" name="Administratorpass" value="密码" class="input-box"/><br>
+			 <div id="resultoflogin" style="margin:10px 0 0 0;color:red;"></div>
+			 <button id="adminlogin" class="btn-box">登&nbsp;&nbsp;录</button>
+		</div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <!-- 该界面暂时不需要用到footer -->
+    </div>
+    <!-- 当前jQuery版本为1.11.3 -->>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/Login.js"></script>
+    <script src="../js/ajax.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/*浏览器兼容*/
+/*IE10 禁用X和眼睛*/
+::-ms-clear, ::-ms-reveal{display: none;}
+/*谷歌、safari浏览器输入框选中提示*/
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a:link {
+	text-decoration: none;
+	color: rgb(93, 169, 255);
+}
+a:visited{
+    text-decoration: none;
+	color: rgb(93, 169, 255);
+}
+a:hover {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	cursor: pointer;
+}
+a:active {
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+}
+body{
+	background-color:rgb(242,242,242);
+}
+input{
+	padding-left:20px;
+    width:200px;
+    height:35px;
+    font-size:15px;
+    border:#aaa solid 1px;
+    border-radius:20px;
+}
+input:focus{
+    border:blue solid 1px;
+}
+button{
+	width:200px;
+	height:36px;
+	background:rgb(107,107,107);
+	font-size:20px;
+	color:white;
+	border:rgb(107,107,107) solid 1px;
+	border-radius:20px;
+}
+button:hover{
+	box-shadow: 5px 12px 16px 0 rgba(0,0,0,0.2), 0 17px 50px 0 rgba(0,0,0,0.2);
+	cursor:pointer;
+	transition: 0.2s;
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: Center;
+    height: 50px;
+   	color:white;
+}
+ul li:hover{
+	cursor:pointer;
+	background-color:rgb(160,160,160);
+}
+.header{
+	width:auto;
+	height:60px;
+	background-color:rgb(107,107,107);
+	border-bottom: #aaa solid 1px;
+}
+.logo-box{
+	width:auto;
+	height:60px;
+	background-color:rgb(107,107,107);
+}
+.img-logo{
+	margin-left:50px;
+	width:60px;
+	height:60px;
+}
+.text-main{
+	position: absolute;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    top: 15px;
+}
+.welcome{
+	position: absolute;
+    margin-left: 320px;
+    font-size: 15px;
+    color: white;
+    top: 25px;
+}
+.power-list{
+	float:left;
+	width:200px;
+	background-color:rgb(107,107,107);
+	font-size:18px;
+	color:white;
+	text-align:center;
+}

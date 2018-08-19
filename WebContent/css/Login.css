@@ -1,0 +1,22 @@
+.wrapper{
+	margin:50px auto;
+	width:400px;
+	height:400px;
+}
+.login-box{
+	width:400px;
+	height:400px;
+	text-align:center;
+}
+.login-box{
+	margin:200px 0 0 0;
+}
+.input-box{
+	margin: 20px 0 10px 0;
+	width:270px;
+	color:#aaa;
+}
+.btn-box{
+	margin: 40px 0 0 0;
+	width:200px;
+}
